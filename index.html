@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8"><meta name="viewport'
+content="width=device-width, 
+initial-scale=1.0">
+<title>My Math Website</title>
+</head>
+<body style="text-align: center;
+background:lightblue;">
+<h1>~ मेरी मैथ वेबसाइट</h1>
+<h3>पहला नंबर लिखो/h3>
+<input type="number" id="a">
+<h3>दूसरा नंबर लिखो/h3>
+<input type="number" id="b">
+<br><br>
+<button onclick="calculate('+')”-जोड(+)</
+button>
+<button onclick="calculate('-')">घटाव
+(-)く/button>
+<button onclick="calculate(1*')”>गुणा(×)</
+button>
+<button onclick="calculate('/')”>भाग(÷)く/
+button>
+<h2 id="result">उत्तर यहों आएगा</h2>
+<script>
+function calculate(op) {
+let a=
+document. getElementById( "a"). value;
+let b=
+document. getElementById("b").value;
+  let b:
+/
+document, getElementById("b").value;
+if (a ===
+===q1
+document. getElementById("result").innerText =
+पहले दोनों नंबर लिखो!";return;
+√
+a = Number(a);
+b = Number(b);
+let answer;
+if (op === "+") answer = a + b;if (op ==="-") answer=a-b if (op answer = a* b;
+if (op === "/")(
+if (b === 0) {
+document.getElementById("result").innerText =
+"शুন्य से भाग नहीं कर
+सकते!";
+return;
+丁し
+answer= a / b
+子
+document. getElementById("result").innerText=
+"उत्तर = " + answer;
+</script>
+k/body
+</html>
